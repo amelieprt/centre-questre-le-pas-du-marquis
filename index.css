@@ -1,0 +1,1099 @@
+
+/* Section page d'acceuil */
+
+/* Mise en forme des images */
+.Image_accueil1, .Image_accueil2 {
+    padding-left: 5%;
+}
+.Image_accueil1{
+    padding-top: 10%;
+}
+.couverture1, .couverture2, .couverture4, .couverture5 {
+    padding-right: 7%;
+}
+/* La mise en forme du titre */
+.titre {
+    font-size: 97px;
+    color: #223055;
+    font-family: 'HermeneusOne';
+    padding-left: 2%;
+    margin: none;
+}
+
+/* Section page de présentation du club */
+
+/* Le titre h2 */
+
+h2 {
+    font-family: 'HermeneusOne';
+    font-size: 64px;
+    padding-left: 5%;
+}
+
+/* Placement de l'image */
+
+.imgPresentation{
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 5%;
+    position: absolute;
+}
+
+/* Texte de présentation du club  */
+
+.text-présentation {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 5%;
+    padding-left: 30%;
+    padding-right: 15%;
+    font-family: 'Lateef-Regular';
+}
+
+/* Texte de signature de l'équipe du pas du marquis */
+
+.text-signature {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 4%;
+    padding-left: 30%;
+    padding-right: 15%;
+    font-size: 20px;
+    font-family: 'Lateef-Regular';
+}
+
+/* Infrastructure */
+
+
+.manège  {
+    padding-left: 10%;
+    position: absolute;
+}
+.carrière {
+    padding-left: 60%;
+    position: absolute;
+}
+.ecurie {
+    padding-left: 10%;
+    position: absolute;
+    padding-top: 25%;
+    /* padding-right: 50%; */
+    padding: none;
+}
+.bureau {
+    padding-top: 25%;
+    padding-left: 60%;
+    position: absolute;
+}
+
+.infrastructure p {
+    text-align: center;
+}
+  
+  
+
+
+
+/* Section club  */
+
+/* Image pour annoncer les stages / nouveauté avec les textes*/
+
+.club {
+    padding-top: 50%;
+}
+
+
+.imgclub1 img {
+    padding-top: 5%;
+   max-width: 50%;
+    max-height: 50%;
+    padding-left: 10%;
+    position: absolute;
+}
+p{
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
+
+.text-stage {
+    padding-left: 40%;
+    padding-right: 15%;
+    padding-top: 12%;
+    font-family: 'Lateef-Regular';
+}
+
+/* Images et textes sur les cours */
+
+.imgclub2 {
+    padding-left: 60%;
+    padding-top: 20%;
+    position: absolute;
+    max-width: 30%;
+    max-height:30% ;
+}
+.text-cours {
+    padding-left: 10%;
+    padding-right: 50%;
+    padding-top: 25%;
+}
+
+/* Image et texte sur les disciplines */
+
+.imgclub3 {
+    padding-left: 10%;
+    padding-top: 10%;
+    max-width: 30%;
+    max-height: 30%;
+    position: absolute;
+}
+
+.text-discipline {
+    padding-left: 50%;
+    padding-right: 15%;
+    padding-top: 15%;
+}
+
+.voir-plus{
+    background-color: #223055 ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    
+}
+.bouton {
+    padding-left: 75%;
+    padding-top: 10%;
+}
+
+/* Titre et image pour les pensions propriétaire */
+
+.imgpension img {
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 10%;
+    padding-top: 7%;
+    position: absolute;
+}
+
+.text-pension {
+    padding-left: 40%;
+    padding-right: 15%;
+    padding-top: 15%;
+}
+
+
+/* Version responsive */
+
+
+ 
+@media (max-width: 1350px) {
+
+    /* Images pages d'accueil */
+
+    .couverture1, .couverture2, .couverture4, .couverture5 {
+        padding-right: 15%;
+    }
+    .Image_accueil1, .Image_accueil2 {
+        padding-left: 7%;
+    }
+    .couverture1 {
+
+        max-width: 20%;
+        max-height: 20%;
+        
+    
+       }
+        
+       .couverture2 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+       .couverture3 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+       .Image_accueil1 {
+        padding-top: 20%;
+       }
+    
+       .titre {
+        font-size: 70px;
+        text-align: center;
+       }
+    
+       .couverture4 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+        
+       .couverture5 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+       .couverture6 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+
+/* présentation du club */
+
+
+       /* Placement de l'image */
+
+.imgPresentation{
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 5%;
+    position: absolute;
+}
+
+/* Section club  */
+
+/* Image pour annoncer les stages / nouveauté avec les textes*/
+
+
+
+.imgclub1 img {
+    padding-top: 5%;
+   max-width: 25%;
+    max-height: 25%;
+    padding-left: 10%;
+    position: absolute;
+}
+
+
+
+
+       /* Titre et image pour les pensions propriétaire */
+
+.imgpension img {
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 10%;
+    padding-top: 7%;
+    position: absolute;
+}
+ }
+
+@media (max-width: 1350px) {
+
+    /* Images pages d'accueil */
+
+    .couverture1, .couverture2, .couverture4, .couverture5 {
+        padding-right: 15%;
+    }
+    .Image_accueil1, .Image_accueil2 {
+        padding-left: 7%;
+    }
+    .couverture1 {
+
+        max-width: 20%;
+        max-height: 20%;
+        
+    
+       }
+        
+       .couverture2 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+       .couverture3 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+       .Image_accueil1 {
+        padding-top: 20%;
+       }
+    
+       .titre {
+        font-size: 70px;
+        text-align: center;
+       }
+    
+       .couverture4 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+        
+       .couverture5 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+       .couverture6 {
+    
+        max-width: 20%;
+        max-height: 20%;
+    
+       }
+
+/* présentation du club */
+
+
+       /* Placement de l'image */
+
+.imgPresentation{
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 5%;
+    position: absolute;
+}
+
+/* Section club  */
+
+/* Image pour annoncer les stages / nouveauté avec les textes*/
+
+
+
+.imgclub1 img {
+    padding-top: 5%;
+   max-width: 25%;
+    max-height: 25%;
+    padding-left: 10%;
+    position: absolute;
+}
+
+
+
+
+       /* Titre et image pour les pensions propriétaire */
+
+.imgpension img {
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 10%;
+    padding-top: 7%;
+    position: absolute;
+}
+
+
+
+}
+
+@media (max-width: 1024px) {
+
+    /* Image accueil */
+
+   .couverture1 {
+
+    max-width: 20%;
+    max-height: 20%;
+
+   }
+    
+   .couverture2 {
+
+    max-width: 20%;
+    max-height: 20%;
+
+   }
+   .couverture3 {
+
+    max-width: 20%;
+    max-height: 20%;
+
+   }
+   .Image_accueil1 {
+    padding-top: 20%;
+   }
+
+   .titre {
+    font-size: 60px;
+   }
+
+   .couverture4 {
+
+    max-width: 20%;
+    max-height: 20%;
+
+   }
+    
+   .couverture5 {
+
+    max-width: 20%;
+    max-height: 20%;
+
+   }
+   .couverture6 {
+
+    max-width: 20%;
+    max-height: 20%;
+
+   }
+
+   /* Présentation du club */
+
+   .titrePage h2 {
+    padding-left: 5%;
+   }
+
+   .imgPresentation {
+    max-width: 30%;
+    max-height: 30%;
+    padding-left: 5%;
+    position: absolute;
+    padding-top: 7%;
+}
+.text-présentation {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-left: 40%;
+    padding-right: 10%;
+}
+.text-signature {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 4%;
+    padding-left: 40%;
+    padding-right: 10%;
+    font-size: 18px;
+    
+}
+
+
+/* Infrastruture */
+
+.infrastructure {
+    position: relative;
+}
+
+.manège  img {
+    padding-left: 7%;
+    padding-top: 45%;
+    position: absolute;
+    max-width: 270%;
+    max-height: 270%;
+}
+
+
+.carrière img {
+    padding-top: 10%;
+    padding-left: 5%;
+    position: absolute;
+    max-width: 270%;
+    max-height: 270%;
+}
+
+.ecurie img {
+    padding-left: 7%;
+    position: absolute;
+    padding-top: 55%;
+    /* padding-right: 50%; */
+    padding: none;
+    max-width: 180%;
+    max-height: 180%;
+}
+.ecurie p {
+    padding-top: 30%;
+}
+
+.bureau img {
+    padding-top: 12%;
+    padding-left: 5%;
+    position: absolute;
+    max-width:60%;
+    max-height: 60%;
+   
+}
+.bureau p {
+    padding-top: 30%;
+}
+
+/* Section club  */
+
+/* Image pour annoncer les stages / nouveauté avec les textes*/
+
+.club {
+    padding-top: 50%;
+}
+
+
+.imgclub1 img {
+    padding-top: 5%;
+   max-width: 25%;
+    max-height: 25%;
+    padding-left: 10%;
+    position: absolute;
+}
+
+
+
+/* Images et textes sur les cours */
+
+.imgclub2 {
+    padding-left: 60%;
+    padding-top: 20%;
+    position: absolute;
+    /* max-width: 10%;
+    max-height:10% ; */
+}
+
+
+/* Image et texte sur les disciplines */
+
+.imgclub3 {
+    padding-left: 10%;
+    padding-top: 10%;
+    /* max-width: 20%;
+    max-height: 20%; */
+    position: absolute;
+}
+
+.text-discipline {
+    padding-left: 60%;
+    padding-right: 10%;
+    padding-top: 15%;
+}
+
+
+
+.bouton {
+    padding-left: 75%;
+    padding-top: 10%;
+}
+
+/* images pour la pages pensions */
+
+.imgpension img {
+    max-width: 20%;
+    max-height: 20%;
+    padding-left: 10%;
+    padding-top: 7%;
+    position: absolute;
+}
+    
+    
+
+ }
+
+/* Version tablette */
+
+ @media (max-width: 767px) {
+
+    /* Pages d'accueil */
+
+    .couverture1 {
+
+        max-width: 17%;
+        max-height: 17%;
+    
+       }
+        
+       .couverture2 {
+    
+        max-width: 17%;
+        max-height: 17%;
+    
+       }
+       .couverture3 {
+    
+        max-width: 17%;
+        max-height: 17%;
+    
+       }
+       .Image_accueil1 {
+        padding-top: 20%;
+       }
+    
+       .titre {
+        font-size: 37px;
+        padding-left: 3%;
+        padding-right: 3%;
+       }
+    
+       .couverture4 {
+    
+        max-width: 17%;
+        max-height: 17%;
+    
+       }
+        
+       .couverture5 {
+    
+        max-width: 17%;
+        max-height: 17%;
+    
+       }
+       .couverture6 {
+    
+        max-width: 17%;
+        max-height: 17%;
+    
+       }
+         /* Présentation du club */
+
+   .titrePage h2 {
+    padding-left: 5%;
+   }
+
+   .imgPresentation {
+    max-width: 25%;
+    max-height: 25%;
+    padding-left: 30%;
+    position: absolute;
+    padding-top: 7%;
+}
+.text-présentation {
+    font-size: 16px;
+    padding-top: 50%;
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.text-signature {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 4%;
+    padding-left: 50%;
+    padding-right: 5%;
+    font-size: 16px;
+    
+}
+
+
+/* Infrastruture */
+
+.infrastructure {
+    position: relative;
+}
+
+.manège  img {
+    padding-left: 7%;
+    padding-top: 5%;
+    position: absolute;
+    max-width: 195%;
+    max-height: 195%;
+}
+.manège p {
+    opacity: 0%;
+   
+}
+
+.carrière img {
+    padding-top: 2%;
+    padding-left: 5%;
+    position: absolute;
+    max-width:195%;
+    max-height: 195%;
+}
+.carrière p {
+    opacity: 0%;
+}
+.ecurie img {
+    padding-left: 7%;
+    position: absolute;
+    padding-top: 25%;
+    /* padding-right: 50%; */
+    padding: none;
+    max-width:150%;
+    max-height: 150%;
+}
+.ecurie p {
+    opacity: 0%;
+}
+.bureau img {
+    padding-top: 7%;
+    padding-left: 5%;
+    position: absolute;
+    max-width:50%;
+    max-height: 50%;
+   
+}
+.bureau p {
+    opacity: 0%;
+}
+
+/* Section page club */
+
+.club {
+    padding-top: 60%;
+}
+
+
+.imgclub1 img {
+    
+   max-width: 30%;
+    max-height: 30%;
+    padding-left: 30%;
+    position: absolute;
+    display: max-bloc-size;
+}
+p{
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+    
+}
+
+.text-stage  {
+   
+    padding-top: 60%;
+    flex: 1;
+    padding-left: 40px;
+    box-sizing: border-box;
+    
+
+   
+}
+
+/* Images et textes sur les cours */
+
+.imgclub2 img {
+    box-sizing: border-box;
+    width: 200%;
+    height: auto;
+    padding-left: 0%;
+    
+}
+.imgclub2 {
+    padding-left: 20%;
+ 
+}
+.text-cours {
+    padding-top: 80%;
+    flex: 1;
+    padding-left: 40px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    
+}
+
+/* Image et texte sur les disciplines */
+
+.imgclub3 img {
+
+    box-sizing: border-box;
+    max-width: 200%;
+    height: auto;
+    padding-top: 20%;
+    padding-left: 50%;
+}
+
+.text-discipline {
+   padding-top: 70%;
+    flex: 1;
+    padding-left: 40px;
+    box-sizing: border-box;
+    
+}
+
+.voir-plus{
+    background-color: #223055 ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    
+}
+.bouton {
+    padding-left: 75%;
+    padding-top: 10%;
+}
+
+/* Pages de la pension */
+
+.imgpension img {
+    max-width: 30%;
+    max-height: 30%;
+    padding-left: 30%;
+    padding-top: 7%;
+    position: absolute;
+}
+
+.text-pension {
+    font-size: 16px;
+    padding-top: 60%;
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+    
+
+    
+
+
+ }
+
+/* Version mobile */
+
+@media (max-width:500px) {
+
+    /* Pages d'accueil */
+
+    .couverture1 {
+
+        max-width: 35%;
+        max-height: 35%;
+            
+       }
+        
+       .couverture2 {
+    
+        max-width: 35%;
+        max-height: 35%;
+        padding-right: 0%;
+        padding-left: 10%;
+        
+        
+    
+       }
+       .couverture3 {
+    
+        opacity: 0%;
+    
+       }
+       .Image_accueil1 {
+        padding-top: none;
+       }
+     
+    
+       .titre {
+        font-size: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        padding-top: none;
+       }
+    
+       .couverture4 {
+    
+        max-width: 35%;
+        max-height: 35%;
+    
+       }
+        
+       .couverture5 {
+    
+        max-width: 37%;
+        max-height: 37%;
+        padding-right: 0%;
+        padding-left: 10%;
+    
+       }
+       .couverture6 {
+    
+        opacity: 0;
+    
+       }
+
+    /* Présentation du club */
+
+   .titrePage h2 {
+    padding-left: 5%;
+   }
+
+   .imgPresentation {
+    max-width: 30%;
+    max-height: 30%;
+    padding-left: 30%;
+    position: absolute;
+    padding-top: 7%;
+
+}
+.text-présentation {
+    font-size: 14px;
+    padding-top: 70%;
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+.text-signature {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 4%;
+    padding-left: 50%;
+    padding-right: 5%;
+    font-size: 14px;
+    
+}
+
+/* Infrastruture */
+
+.infrastructure {
+    position: relative;
+}
+
+.manège  img {
+    padding-left: 2%;
+    padding-top: 5%;
+    position: absolute;
+    max-width: 165%;
+    max-height: 165%;
+}
+.manège p {
+    opacity: 0%;
+   
+}
+
+.carrière img {
+    
+    position: absolute;
+    max-width:165%;
+    max-height: 165%;
+}
+.carrière p {
+    opacity: 0%;
+}
+.ecurie img {
+    padding-left: 2%;
+    position: absolute;
+    padding-top: 25%;
+    max-width:165%;
+    max-height: 165%;
+}
+.ecurie p {
+    opacity: 0%;
+}
+.bureau img {
+    
+    padding-top: 7%;
+    position: absolute;
+    max-width:60%;
+    max-height: 60%;
+   
+}
+.bureau p {
+    opacity: 0%;
+}
+
+
+
+/* Section page club */
+
+.club {
+    padding-top: 50%;
+}
+
+
+.imgclub1 img {
+    
+   max-width: 30%;
+    max-height: 30%;
+    padding-left: 30%;
+    position: absolute;
+    display: max-bloc-size;
+}
+p{
+    font-family: 'Lateef-Regular';
+    font-size: 16px;
+    
+}
+
+.text-stage  {
+   
+    padding-top: 60%;
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+
+   
+}
+
+/* Images et textes sur les cours */
+
+.imgclub2 img {
+    box-sizing: border-box;
+    width: 200%;
+    height: auto;
+    padding-left: 0%;
+    
+}
+.imgclub2 {
+    padding-left: 10%;
+ 
+}
+.text-cours {
+    padding-top: 80%;
+    flex: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Image et texte sur les disciplines */
+
+.imgclub3 img {
+
+    box-sizing: border-box;
+    max-width: 200%;
+    height: auto;
+    padding-top: 20%;
+}
+
+.text-discipline {
+   padding-top: 70%;
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+    
+}
+
+.voir-plus{
+    background-color: #223055 ;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 10px 30px 10px 30px;
+    border: none;
+    
+}
+.bouton {
+    padding-left: 60%;
+    padding-top: 10%;
+}
+
+/* Pages de la pension */
+
+.imgpension img {
+    max-width: 30%;
+    max-height: 30%;
+    padding-left: 30%;
+    padding-top: 7%;
+    position: absolute;
+}
+
+.text-pension {
+    font-size: 14px;
+    padding-top: 70%;
+    flex: 1;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+
+ }

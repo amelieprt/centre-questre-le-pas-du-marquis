@@ -1,0 +1,172 @@
+/* La page tarifs avec l'images des prix */
+
+.tarif h2{
+    padding-top: 10%;
+}
+.tarif img {
+    max-width: 50%;
+    max-height: 50%;
+    padding-left: 30%;
+    padding-top: 5%;
+}
+
+/* La section horaire d'ouverture */
+
+.horaire p {
+    padding-left: 65%;
+    padding-top: 6%;
+    color: white;
+}
+.horaire h2 {
+    position: absolute;
+    color: white;
+}
+.horaire {
+    background-color:#223055 ;
+    padding-bottom: 4%;
+}
+
+
+/* La section Localisation */
+
+iframe.maps {
+	width: 1090px;
+	height: 427px;
+	left: 173px;
+	top: 3280px;
+	border: 1px solid #000000;
+	border-radius: 20px;
+	margin: auto;
+	z-index: 1;
+}
+	
+div.maps {
+	display: flex;
+}
+.text-adresse {
+    padding-top: 2%;
+    padding-left: 62%;
+}
+
+/* Contact */
+
+
+.imgicons {
+    padding-left: 15%;
+    padding-right: 50%;
+    position: absolute;
+    
+}
+
+.contact p {
+    padding-left: 40%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-family: 'Lateef-Regular';
+    text-decoration:none;
+}
+
+/* Version responsive */
+
+@media (max-width: 1024px) {
+
+    /* version ordinateur sur l'horaire d'ouverture */
+
+    h2 {
+        padding-left: 15%;
+        font-size: 50px;
+        padding-top: 2%;
+    }
+    .horaire p {
+        font-size: 20px;
+        padding-top: 20%;
+        padding-left: 35%;
+    }
+
+    /* Contact */
+    .imgicons img {
+        padding-top: 2%;
+        width: 70%;
+        height: 70%;
+       
+    }
+    
+
+    
+    
+
+ }
+
+/* Version tablette */
+
+ @media (max-width: 767px) {
+
+    /* l'horaire d'ouverture */
+
+    h2 {
+        padding-left: 15%;
+        font-size: 32px;
+    }
+    .horaire p {
+        font-size: 16px;
+        padding-top: 20%;
+        padding-left: 20%;
+    }
+
+    /* Contact */
+
+    .imgicons img {
+        padding-top: 2%;
+        width: 50%;
+        height: 50%;
+    }
+
+    .contact p {
+        padding-left: 40%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        font-size: 16px;
+    }
+  
+
+
+ }
+
+/* Version mobile */
+
+@media (max-width:480px) {
+
+    /* l'horaire d'ouverture */
+    h2 {
+        padding-left: 10%;
+        font-size: 20px;
+        padding-top: 5%;
+    }
+    .horaire p {
+        font-size: 16px;
+        padding-top: 25%;
+        padding-left: 20%;
+        
+    }
+
+    /* localisation */
+  
+    .text-adresse {
+        padding-top: 2%;
+        padding-left: 30%;
+        font-size: 14px;
+    }
+    
+    /* Contact */
+
+    .imgicons img {
+        padding-top: 2%;
+        width: 30px;
+        height: 30px;
+       
+    }
+
+ }
+
+
+ 

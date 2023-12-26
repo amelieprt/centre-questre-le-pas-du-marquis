@@ -1,0 +1,98 @@
+header {
+    margin-right: 7%;
+}
+
+header nav ul li a {
+    font-family: 'HermeneusOne';
+    font-size: 25px;
+    color: black;
+    text-decoration:none; 
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 60px;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 30px;
+}
+
+header .logo {
+    position: absolute;
+    width: 15%;
+}
+
+
+header .open,
+header .close {
+    background: white;
+    color: black;
+    display: none;
+    margin-right: 5px;
+}
+
+@media (max-width: 1024px) {
+
+    header .logo {
+        width: 20%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    /* État fermé */
+    header .main-menu .close {
+        display: none;
+    }
+
+    /* header .main-menu ul,
+    header .loupe1 {
+        display: none;
+    } */
+
+    /* État ouvert */
+
+
+    header .main-menu:target ul {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        background: white;
+    }
+
+    header .main-menu:target .close {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    header .main-menu:target .open {
+        display: none;
+    }
+
+    header nav ul li {
+        margin: 10% 0;
+
+    }
+
+    header .open {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
+
+@media (max-width: 504px) {
+
+    header .logo {
+        width: 15%;
+    }
+}
+
+
