@@ -68,6 +68,8 @@ div.maps {
 
 /* Version responsive */
 
+
+
 @media (max-width: 1024px) {
 
     /* version ordinateur sur l'horaire d'ouverture */
@@ -88,7 +90,6 @@ div.maps {
         padding-top: 2%;
         width: 70%;
         height: 70%;
-       
     }
     
 

@@ -190,9 +190,20 @@ p{
 
 
 /* Version responsive */
+@media (min-width: 1400px) {
+
+    .imgPresentation{
+        max-width: 40%;
+        max-height: 40%;
+        padding-left: 5%;
+        position: absolute;
+    }
+    
 
 
- 
+}
+
+
 @media (max-width: 1350px) {
 
     /* Images pages d'accueil */
