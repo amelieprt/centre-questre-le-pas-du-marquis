@@ -78,6 +78,49 @@ p{
     padding-top: 10%;
 }
 
+/* Portrait d'Ecume */
+.imgEcume img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 10%;
+}
+.text-Ecume p {
+    padding-left: 15%;
+    padding-top: 25%;
+    position: absolute;
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
 
 
+/* Portrait d'Anecdote */
+
+.imgAnecdote img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 35%;
+}
+.text-Anecdote p {
+    padding-left: 40%;
+    padding-top: 25%;
+    position: absolute;
+}
+
+
+/* Portrait d'aubade */
+
+
+.imgAubade img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 60%;
+}
+.text-Aubade p {
+    padding-left: 65%;
+    padding-top: 25%;
+    position: absolute;
+}
 
