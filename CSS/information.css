@@ -90,17 +90,18 @@ div.maps {
         padding-top: 2%;
         width: 70%;
         height: 70%;
+
     }
     
 
     
     
 
- }
+}
 
 /* Version tablette */
 
- @media (max-width: 767px) {
+@media (max-width: 767px) {
 
     /* l'horaire d'ouverture */
 
@@ -128,10 +129,8 @@ div.maps {
         padding-bottom: 5%;
         font-size: 16px;
     }
-  
 
-
- }
+}
 
 /* Version mobile */
 
@@ -151,7 +150,7 @@ div.maps {
     }
 
     /* localisation */
-  
+
     .text-adresse {
         padding-top: 2%;
         padding-left: 30%;
@@ -164,10 +163,8 @@ div.maps {
         padding-top: 2%;
         width: 30px;
         height: 30px;
-       
     }
 
- }
+}
 
 
- 
