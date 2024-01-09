@@ -124,3 +124,206 @@ p{
     position: absolute;
 }
 
+/* Portrait d'Haribo */
+
+.imgHaribo img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 35%;
+}
+.text-Haribo p {
+    padding-left: 15%;
+    padding-top: 60%;
+    position: absolute;
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
+
+/* Portrait de Gloria */
+
+.imgGloria img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 35%;
+    padding-top: 35%;
+}
+.text-Gloria p {
+    padding-left: 40%;
+    padding-top: 60%;
+    position: absolute;
+}
+
+/* Portrait d'Arbalète */
+
+.imgArbalete img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 60%;
+    padding-top: 35%;
+}
+.text-Arbalete p {
+    padding-left: 65%;
+    padding-top: 60%;
+    position: absolute;
+}
+
+/* Portrait d'Eliz */
+
+.imgEliz img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 70%;
+}
+.text-Eliz p {
+    padding-left: 15%;
+    padding-top: 95%;
+    position: absolute;
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
+
+
+/* section présentation des chevaux */
+
+
+.preschevaux h2 {
+    padding-top: 100%;
+}
+
+/* Portrait de Sam */
+.imgSam img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 10%;
+}
+.text-Sam p {
+    padding-left: 15%;
+    padding-top: 25%;
+    position: absolute;
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
+
+/* Portrait de Watrichop */
+
+.imgWatrichop img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 35%;
+}
+.text-Watrichop p {
+    padding-left: 40%;
+    padding-top: 25%;
+    position: absolute;
+}
+
+/* Portrait de Billings */
+
+.imgBillings img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 60%;
+}
+.text-Billings p {
+    padding-left: 65%;
+    padding-top: 25%;
+    position: absolute;
+}
+
+/* Portrait d'Yvonne */
+
+.imgYvonne img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 35%;
+}
+.text-Yvonne p {
+    padding-left: 15%;
+    padding-top: 60%;
+    position: absolute;
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
+
+/* Portrait de Angie */
+
+.imgAngie img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 35%;
+    padding-top: 35%;
+}
+.text-Angie p {
+    padding-left: 40%;
+    padding-top: 60%;
+    position: absolute;
+}
+
+/* Portrait d'Utopie */
+
+.imgUtopie img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 60%;
+    padding-top: 35%;
+}
+.text-Utopie p {
+    padding-left: 65%;
+    padding-top: 60%;
+    position: absolute;
+}
+
+/* Portrait de Scooby */
+
+.imgScooby img {
+    max-width: 15%;
+    max-width: 15%;
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 70%;
+}
+.text-Scooby p {
+    padding-left: 15%;
+    padding-top: 95%;
+    position: absolute;
+    font-family: 'Lateef-Regular';
+    font-size: 20px;
+}
+
+
+
+/* Responsive mobile */
+
+@media (max-width: 767px) {
+
+    .presponey p {
+        font-size: 16px;
+        
+    }
+    .presponey h2 {
+        padding-top: 25%;
+        padding-bottom: 7%;
+    }
+    .preschevaux p {
+        font-size: 16px;
+    }
+    .preschevaux h2{
+        padding-top: 110%;
+        padding-bottom: 7%;
+    }
+}
+
+    
