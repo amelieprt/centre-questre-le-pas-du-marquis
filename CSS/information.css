@@ -57,13 +57,19 @@ div.maps {
     position: absolute;
     
 }
+.lieninsta a {
+    text-decoration: none;
+}
+.lienfacebook a {
+    text-decoration: none;
+}
 
 .contact p {
     padding-left: 40%;
     padding-top: 3%;
     padding-bottom: 5%;
     font-family: 'Lateef-Regular';
-    text-decoration:none;
+    
 }
 
 /* Version responsive */
