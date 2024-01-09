@@ -26,6 +26,7 @@ header ul {
 header .logo {
     position: absolute;
     width: 15%;
+    padding-left: 3%;
 }
 
 
