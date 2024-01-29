@@ -4,51 +4,46 @@
     background-color:#223055  ;
 }
 
-.accueil a {
-    padding-left: 10%;
-    padding-top: 2%;
+.accueilfooter  {
+    padding-left: 15%;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.info a {
-    padding-left: 25%;
-    padding-top: 2%;
+.info  {
+    padding-left: 15%;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.club3 a {
-    padding-left: 40%;
-    padding-top: 2%;
+.club3  {
+    padding-left: 15%;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-.mention a {
-    padding-left: 52%;
-    padding-top: 2%;
+.mention  {
+    padding-left: 15%;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
 
-.Reseaux p {
-    padding-left: 70%;    
-    padding-top: 7px;
+.Reseaux  {
+    padding-left: 20%;  
+    padding-top: 6%;  
     position: absolute;
     text-decoration: none;
     color: white;
     font-size: 20px;
 }
-.insta {
-    padding-left: 70%;
+.insta img {
+    padding-left: 50%;
     padding-top: 5%;
 }
 
 .facebook {
-    padding-left: 76%;
-    padding-top: 5%;
+    padding-left: 7%;
 }

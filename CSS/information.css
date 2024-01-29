@@ -49,19 +49,21 @@ div.maps {
 }
 
 /* Contact */
-
+.contact h2 {
+    padding-bottom: 5%;
+}
 
 .imgicons {
     padding-left: 15%;
-    padding-right: 50%;
-    /* position: absolute; */
-    
+    float: left;
 }
+
 .lieninsta a {
     text-decoration: none;
 }
 .lienfacebook a {
     text-decoration: none;
+
 }
 
 .contact p {

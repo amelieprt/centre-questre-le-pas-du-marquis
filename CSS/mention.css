@@ -8,21 +8,19 @@ h3{
     padding-bottom: 2%;
     font-size: 30px;
     font-family: 'HermeneusOne';
+    color: black;
 }
 p {
     font-size: 20px;
     font-family: 'Lateef-Regular';
 }
 
-.info p {
+.infogenerales p {
     padding-left: 15%;
     padding-right: 15%;
     color: black;
 }
-.hebergeur h3 {
-    padding-top: 10%;
 
-}
 .hebergeur p {
     padding-left: 15%;
     padding-right: 15%;
