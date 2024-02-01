@@ -41,17 +41,63 @@
     padding-left: 7%;
 }
 
+@media (max-width: 1300px) {
 
+.insta img {
+    padding-left: 60%;
+    padding-top: 5%;
 
-@media (max-width:480px) {
+    
+}
+.facebook img {
+    
+    padding-left: 2%;
+    
+}
+}
 
+@media (max-width: 1024px) {
+
+    .accueilfooter {
+        font-size: 18px;
+        padding-left: 10%;
+
+    }
+    .info {
+        padding-left: 10%;
+        font-size: 18px;
+        
+    }
+    .club3 {
+        padding-left:10%;
+        font-size: 18px;
+    }
+    .mention {
+        font-size: 18px;
+        padding-left: 10%;
+    }
+
+.insta img {
+    padding-left: 70%;
+    padding-top: 5%;
+
+    
+}
+.facebook img {
+    
+    padding-left: 2%;
+    
+}
+}
+
+@media (max-width: 767px) {
     .accueilfooter {
         font-size: 16px;
         padding-left: 10%;
 
     }
     .info {
-        padding-left: 35%;
+        padding-left: 10%;
         font-size: 16px;
         
     }
@@ -61,7 +107,43 @@
     }
     .mention {
         font-size: 16px;
-        padding-left: 40%;
+        padding-left: 10%;
+    }
+
+.insta img {
+    padding-left: 60%;
+    padding-top: 10%;
+    width: 7%;
+    height: 7%;
+}
+.facebook img {
+    width: 7%;
+    height: 7%;
+    padding-left: 3%;
+    
+}
+}
+
+
+@media (max-width:500px) {
+
+    .accueilfooter {
+        font-size: 16px;
+        padding-left: 3%;
+
+    }
+    .info {
+        padding-left: 7%;
+        font-size: 16px;
+        
+    }
+    .club3 {
+        padding-left:7%;
+        font-size: 16px;
+    }
+    .mention {
+        font-size: 16px;
+        padding-left: 7%;
     }
 
 .insta img {
@@ -77,4 +159,40 @@
     
 }
 
+}
+
+
+@media (max-width:410px) {
+    
+    .accueilfooter {
+        font-size: 18px;
+        padding-left: 40%;
+
+    }
+    .info {
+        padding-left: 40%;
+        font-size: 18px;
+        
+    }
+    .club3 {
+        padding-left:40%;
+        font-size: 18px;
+    }
+    .mention {
+        font-size: 18px;
+        padding-left: 40%;
+    }
+
+.insta img {
+    padding-left: 60%;
+    padding-top: 10%;
+    width: 10%;
+    height: 10%;
+}
+.facebook img {
+    width: 10%;
+    height: 10%;
+    padding-left: 3%;
+    
+}
 }
