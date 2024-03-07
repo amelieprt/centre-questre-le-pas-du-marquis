@@ -302,7 +302,9 @@ p{
     font-family: 'Lateef-Regular';
     font-size: 20px;
 }
-
+.clubfooter{
+    padding-top: 100%;
+}
 
 
 /* Responsive mobile */
