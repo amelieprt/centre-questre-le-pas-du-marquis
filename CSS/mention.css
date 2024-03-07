@@ -21,6 +21,12 @@ p {
     color: black;
 }
 
+.realisation p {
+    padding-left: 15% ;
+    padding-right: 15%;
+    
+}
+
 .hebergeur p {
     padding-left: 15%;
     padding-right: 15%;
