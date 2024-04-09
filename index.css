@@ -70,49 +70,30 @@ h2 {
     font-family: 'Lateef-Regular';
 }
 
-/* Infrastructure */
-
-
-.manège  {
-    padding-left: 10%;
-    position: absolute;
+.competance{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
-.carrière {
-    padding-left: 60%;
-    position: absolute;
+.competance img{
+width: 70%;
 }
-.ecurie {
-    padding-left: 10%;
-    position: absolute;
-    padding-top: 25%;
-    /* padding-right: 50%; */
-    padding: none;
+.competance-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-.bureau {
-    padding-top: 25%;
-    padding-left: 60%;
-    position: absolute;
-}
-
-.infrastructure p {
-    text-align: center;
-}
-
-
 
 
 /* Section club  */
 
 /* Image pour annoncer les stages / nouveauté avec les textes*/
 
-.club {
-    padding-top: 50%;
-}
 
 
 .imgclub1 img {
     padding-top: 5%;
-   max-width: 50%;
+    max-width: 50%;
     max-height: 50%;
     padding-left: 10%;
     position: absolute;
@@ -494,61 +475,10 @@ p{
 }
 
 
-/* Infrastruture */
-
-.infrastructure {
-    position: relative;
-}
-
-.manège  img {
-    padding-left: 7%;
-    padding-top: 45%;
-    position: absolute;
-    max-width: 270%;
-    max-height: 270%;
-}
-
-
-.carrière img {
-    padding-top: 10%;
-    padding-left: 5%;
-    position: absolute;
-    max-width: 270%;
-    max-height: 270%;
-}
-
-.ecurie img {
-    padding-left: 7%;
-    position: absolute;
-    padding-top: 55%;
-    /* padding-right: 50%; */
-    padding: none;
-    max-width: 180%;
-    max-height: 180%;
-}
-.ecurie p {
-    padding-top: 30%;
-}
-
-.bureau img {
-    padding-top: 12%;
-    padding-left: 5%;
-    position: absolute;
-    max-width:60%;
-    max-height: 60%;
-   
-}
-.bureau p {
-    padding-top: 30%;
-}
-
 /* Section club  */
 
 /* Image pour annoncer les stages / nouveauté avec les textes*/
 
-.club {
-    padding-top: 50%;
-}
 
 
 .imgclub1 img {
@@ -694,63 +624,9 @@ p{
 }
 
 
-/* Infrastruture */
-
-.infrastructure {
-    position: relative;
-}
-
-.manège  img {
-    padding-left: 7%;
-    padding-top: 5%;
-    position: absolute;
-    max-width: 195%;
-    max-height: 195%;
-}
-.manège p {
-    opacity: 0%;
-   
-}
-
-.carrière img {
-    padding-top: 2%;
-    padding-left: 5%;
-    position: absolute;
-    max-width:195%;
-    max-height: 195%;
-}
-.carrière p {
-    opacity: 0%;
-}
-.ecurie img {
-    padding-left: 7%;
-    position: absolute;
-    padding-top: 25%;
-    /* padding-right: 50%; */
-    padding: none;
-    max-width:150%;
-    max-height: 150%;
-}
-.ecurie p {
-    opacity: 0%;
-}
-.bureau img {
-    padding-top: 7%;
-    padding-left: 5%;
-    position: absolute;
-    max-width:50%;
-    max-height: 50%;
-   
-}
-.bureau p {
-    opacity: 0%;
-}
 
 /* Section page club */
 
-.club {
-    padding-top: 60%;
-}
 
 
 .imgclub1 img {
@@ -953,68 +829,9 @@ p{
     
 }
 
-/* Infrastruture */
-
-.infrastructure {
-    position: relative;
-    
-}
-
-.manège  img {
-    top: 0;
-    left: 10vh;
-    z-index: 0;
-    position: absolute;
-    height: 190%;
-    width: 190%;
-
-}
-.manège p {
-    opacity: 0%;
-}
-
-.carrière img {
-    
-    position: absolute;
-    top: 25vh;
-    left: 10vh;
-    z-index: 0;
-}
-.carrière p {
-    opacity: 0%;
-}
-.ecurie img {
-    
-    top: 50vh;
-    left: 10vh;
-    z-index: 0;
-    position: absolute;
-    
-    
-}
-.ecurie p {
-    opacity: 0%;
-}
-.bureau img {
-    top: 75vh;
-    left: 10vh;
-    z-index: 0;
-    position: absolute;
-    height: 190%;
-    width: 190%;
-
-}
-.bureau p {
-    opacity: 0%;
-}
-
-
 
 /* Section page club */
 
-.club {
-    padding-top: 200%;
-}
 
 
 .imgclub1 img {
