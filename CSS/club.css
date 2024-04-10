@@ -2,7 +2,7 @@
 /* Section club */
 
 .club2 {
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 /* Section balade en forêt */
@@ -20,25 +20,26 @@ p{
 }
 
 .text-balade {
-    padding-left: 60%;
-    padding-right: 15%;
-    padding-top: 12%;
+    margin-left: 60%;
+    margin-right: 5%;
+    margin-top: 16%;
     font-family: 'Lateef-Regular';
 }
 
 /* Images et textes sur les stages */
 
 .imgstage img {
-    padding-left: 60%;
-    padding-top: 20%;
+    margin-left: 55%;
+    margin-top: 10%;
+    margin-right: 10%;
     position: absolute;
     max-width: 40%;
     max-height:40% ;
 }
 .text-stage2 {
-    padding-left: 20%;
-    padding-right: 50%;
-    padding-top: 25%;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-top: 20%;
 }
 
 /* Image et texte sur les saisons en concours */
@@ -52,264 +53,86 @@ p{
 }
 
 .text-concours {
-    padding-left: 60%;
-    padding-right: 15%;
-    padding-top: 15%;
+    margin-left: 60%;
+    margin-right: 5%;
+    margin-top: 20%;
+    font-family: 'Lateef-Regular';
 }
 
 /*  section sur les textes et images sur les cours tt au longs de l'année */
 
 .imgcours img {
-    padding-left: 60%;
-    padding-top: 20%;
+    margin-left: 55%;
+    margin-top: 10%;
+    margin-right: 10%;
     position: absolute;
     max-width: 40%;
     max-height:40% ;
 }
 .text-cours2 {
-    padding-left: 20%;
-    padding-right: 50%;
-    padding-top: 25%;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: 20%;
 }
 
+
+
+ /* Essaie  */
+
+.poney{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.poney img{
+width: 50%;
+}
+.poney-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 /* Section sur la présentation des poneys du club */
 
 .presponey h2 {
-    padding-top: 20%;
+    padding-top: 15%;
 }
-
-/* Portrait d'Ecume */
-.imgEcume img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 10%;
-}
-.text-Ecume p {
-    padding-left: 15%;
-    padding-top: 25%;
-    position: absolute;
-    font-family: 'Lateef-Regular';
-    font-size: 20px;
-}
-
-
-/* Portrait d'Anecdote */
-
-.imgAnecdote img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 35%;
-}
-.text-Anecdote p {
-    padding-left: 40%;
-    padding-top: 25%;
-    position: absolute;
-}
-
-
-/* Portrait d'aubade */
-
-
-.imgAubade img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 60%;
-}
-.text-Aubade p {
-    padding-left: 65%;
-    padding-top: 25%;
-    position: absolute;
-}
-
-/* Portrait d'Haribo */
-
-.imgHaribo img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 10%;
-    padding-top: 35%;
-}
-.text-Haribo p {
-    padding-left: 15%;
-    padding-top: 60%;
-    position: absolute;
-    font-family: 'Lateef-Regular';
-    font-size: 20px;
-}
-
-/* Portrait de Gloria */
-
-.imgGloria img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 35%;
-    padding-top: 35%;
-}
-.text-Gloria p {
-    padding-left: 40%;
-    padding-top: 60%;
-    position: absolute;
-}
-
-/* Portrait d'Arbalète */
-
-.imgArbalete img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 60%;
-    padding-top: 35%;
-}
-.text-Arbalete p {
-    padding-left: 65%;
-    padding-top: 60%;
-    position: absolute;
-}
-
-/* Portrait d'Eliz */
-
-.imgEliz img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 10%;
-    padding-top: 70%;
-}
-.text-Eliz p {
-    padding-left: 15%;
-    padding-top: 95%;
-    position: absolute;
-    font-family: 'Lateef-Regular';
-    font-size: 20px;
-}
-
 
 /* section présentation des chevaux */
 
 
-.preschevaux h2 {
+/* .preschevaux h2 {
     padding-top: 110%;
+} */
+
+
+.chevaux{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+}
+.chevaux img{
+width: 50%;
+}
+.chevaux-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-/* Portrait de Sam */
-.imgSam img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 10%;
-}
-.text-Sam p {
-    padding-left: 15%;
-    padding-top: 25%;
-    position: absolute;
-    font-family: 'Lateef-Regular';
-    font-size: 20px;
-}
 
-/* Portrait de Watrichop */
-
-.imgWatrichop img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 35%;
-}
-.text-Watrichop p {
-    padding-left: 40%;
-    padding-top: 25%;
-    position: absolute;
-}
-
-/* Portrait de Billings */
-
-.imgBillings img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 60%;
-}
-.text-Billings p {
-    padding-left: 65%;
-    padding-top: 25%;
-    position: absolute;
-}
-
-/* Portrait d'Yvonne */
-
-.imgYvonne img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 10%;
-    padding-top: 35%;
-}
-.text-Yvonne p {
-    padding-left: 15%;
-    padding-top: 60%;
-    position: absolute;
-    font-family: 'Lateef-Regular';
-    font-size: 20px;
-}
-
-/* Portrait de Angie */
-
-.imgAngie img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 35%;
-    padding-top: 35%;
-}
-.text-Angie p {
-    padding-left: 40%;
-    padding-top: 60%;
-    position: absolute;
-}
-
-/* Portrait d'Utopie */
-
-.imgUtopie img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 60%;
-    padding-top: 35%;
-}
-.text-Utopie p {
-    padding-left: 65%;
-    padding-top: 60%;
-    position: absolute;
-}
-
-/* Portrait de Scooby */
-
-.imgScooby img {
-    max-width: 15%;
-    max-width: 15%;
-    position: absolute;
-    padding-left: 10%;
-    padding-top: 70%;
-}
-.text-Scooby p {
-    padding-left: 15%;
-    padding-top: 95%;
-    position: absolute;
-    font-family: 'Lateef-Regular';
-    font-size: 20px;
-}
 .clubfooter{
-    padding-top: 100%;
+    padding-top: 2%;
 }
 
 
 /* Responsive mobile */
 
 @media (max-width: 767px) {
+
+    p{
+        font-size: 18px;
+    }
 
     .presponey p {
         font-size: 16px;
@@ -323,7 +146,6 @@ p{
         font-size: 16px;
     }
     .preschevaux h2{
-        padding-top: 110%;
         padding-bottom: 7%;
     }
 }

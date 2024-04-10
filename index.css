@@ -70,15 +70,15 @@ h2 {
     font-family: 'Lateef-Regular';
 }
 
-.competance{
+.infrastructure{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.competance img{
+.infrastructure img{
 width: 70%;
 }
-.competance-content{
+.infrastructure-content{
     display: flex;
     align-items: center;
     flex-direction: column;
