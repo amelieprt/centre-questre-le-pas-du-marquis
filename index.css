@@ -4,23 +4,31 @@ body {
     }
 /* Section page d'acceuil */
 
-/* Mise en forme des images */
-.Image_accueil1, .Image_accueil2 {
-    padding-left: 5%;
+.accueil-couverture {
+    margin-top: 15%;
 }
-.Image_accueil1{
-    padding-top: 10%;
+.accueil{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
 }
-.couverture1, .couverture2, .couverture4, .couverture5 {
-    padding-right: 7%;
+
+.accueil img{
+width: 100%;
 }
+.accueil-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
 /* La mise en forme du titre */
 .titre {
-    font-size: 97px;
+    font-size: 100px;
     color: #223055;
     font-family: 'HermeneusOne';
-    padding-left: 2%;
-    margin: none;
+    text-align: center;
 }
 
 /* Section page de présentation du club */
@@ -192,60 +200,14 @@ p{
 
     /* Images pages d'accueil */
 
-    .couverture1, .couverture2, .couverture4, .couverture5 {
-        padding-right: 15%;
-    }
-    .Image_accueil1, .Image_accueil2 {
-        padding-left: 7%;
-    }
-    .couverture1 {
 
-        max-width: 20%;
-        max-height: 20%;
-        
     
-       }
-        
-       .couverture2 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-       .couverture3 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-       .Image_accueil1 {
-        padding-top: 20%;
-       }
-    
-       .titre {
+.titre {
         font-size: 70px;
         text-align: center;
-       }
+}
     
-       .couverture4 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-        
-       .couverture5 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-       .couverture6 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
+
 
 /* présentation du club */
 
@@ -267,7 +229,7 @@ p{
 
 .imgclub1 img {
     padding-top: 5%;
-   max-width: 25%;
+    max-width: 25%;
     max-height: 25%;
     padding-left: 10%;
     position: absolute;
@@ -285,66 +247,22 @@ p{
     padding-top: 7%;
     position: absolute;
 }
- }
+}
 
 @media (max-width: 1350px) {
 
     /* Images pages d'accueil */
 
-    .couverture1, .couverture2, .couverture4, .couverture5 {
-        padding-right: 15%;
-    }
-    .Image_accueil1, .Image_accueil2 {
-        padding-left: 7%;
-    }
-    .couverture1 {
+    .accueil img{
+        width: 80%;
+        }
 
-        max-width: 20%;
-        max-height: 20%;
-        
     
-       }
-        
-       .couverture2 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-       .couverture3 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-       .Image_accueil1 {
-        padding-top: 20%;
-       }
-    
-       .titre {
+.titre {
         font-size: 70px;
         text-align: center;
-       }
-    
-       .couverture4 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-        
-       .couverture5 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
-       .couverture6 {
-    
-        max-width: 20%;
-        max-height: 20%;
-    
-       }
+}
+
 
 /* présentation du club */
 
@@ -366,7 +284,7 @@ p{
 
 .imgclub1 img {
     padding-top: 5%;
-   max-width: 25%;
+    max-width: 25%;
     max-height: 25%;
     padding-left: 10%;
     position: absolute;
@@ -391,62 +309,26 @@ p{
 
 @media (max-width: 1024px) {
 
+
+    .accueil img{
+        width: 80%;
+        }
     /* Image accueil */
 
-   .couverture1 {
 
-    max-width: 20%;
-    max-height: 20%;
+.titre {
+    font-size: 50px;
+}
 
-   }
-    
-   .couverture2 {
-
-    max-width: 20%;
-    max-height: 20%;
-
-   }
-   .couverture3 {
-
-    max-width: 20%;
-    max-height: 20%;
-
-   }
-   .Image_accueil1 {
-    padding-top: 20%;
-   }
-
-   .titre {
-    font-size: 60px;
-   }
-
-   .couverture4 {
-
-    max-width: 20%;
-    max-height: 20%;
-
-   }
-    
-   .couverture5 {
-
-    max-width: 20%;
-    max-height: 20%;
-
-   }
-   .couverture6 {
-
-    max-width: 20%;
-    max-height: 20%;
-
-   }
+}
 
    /* Présentation du club */
 
-   .titrePage h2 {
+.titrePage h2 {
     padding-left: 5%;
-   }
+}
 
-   .imgPresentation {
+.imgPresentation {
     max-width: 30%;
     max-height: 30%;
     padding-left: 5%;
@@ -483,7 +365,7 @@ p{
 
 .imgclub1 img {
     padding-top: 5%;
-   max-width: 25%;
+    max-width: 25%;
     max-height: 25%;
     padding-left: 10%;
     position: absolute;
@@ -535,62 +417,21 @@ p{
     
     
 
- }
 
 /* Version tablette */
 
- @media (max-width: 767px) {
+@media (max-width: 767px) {
 
     /* Pages d'accueil */
 
-    .couverture1 {
 
-        max-width: 17%;
-        max-height: 17%;
-    
-       }
-        
-       .couverture2 {
-    
-        max-width: 17%;
-        max-height: 17%;
-    
-       }
-       .couverture3 {
-    
-        max-width: 17%;
-        max-height: 17%;
-    
-       }
-       .Image_accueil1 {
-        padding-top: 20%;
-       }
-    
-       .titre {
-        font-size: 37px;
+
+.titre {
+        font-size: 35px;
         padding-left: 3%;
         padding-right: 3%;
-       }
+}
     
-       .couverture4 {
-    
-        max-width: 17%;
-        max-height: 17%;
-    
-       }
-        
-       .couverture5 {
-    
-        max-width: 17%;
-        max-height: 17%;
-    
-       }
-       .couverture6 {
-    
-        max-width: 17%;
-        max-height: 17%;
-    
-       }
          /* Présentation du club */
 
    .titrePage h2 {
@@ -631,7 +472,7 @@ p{
 
 .imgclub1 img {
     
-   max-width: 30%;
+    max-width: 30%;
     max-height: 30%;
     padding-left: 30%;
     position: absolute;
@@ -644,14 +485,14 @@ p{
 }
 
 .text-stage  {
-   
+
     padding-top: 60%;
     flex: 1;
     padding-left: 40px;
     box-sizing: border-box;
     
 
-   
+
 }
 
 /* Images et textes sur les cours */
@@ -688,7 +529,7 @@ p{
 }
 
 .text-discipline {
-   padding-top: 70%;
+    padding-top: 70%;
     flex: 1;
     padding-left: 40px;
     box-sizing: border-box;
@@ -731,7 +572,7 @@ p{
     
 
 
- }
+}
 
 /* Version mobile */
 
@@ -739,62 +580,14 @@ p{
 
     /* Pages d'accueil */
 
-    .couverture1 {
-
-        max-width: 35%;
-        max-height: 35%;
-            
-       }
-        
-       .couverture2 {
-    
-        max-width: 35%;
-        max-height: 35%;
-        padding-right: 0%;
-        padding-left: 10%;
-        
-        
-    
-       }
-       .couverture3 {
-    
-        opacity: 0%;
-    
-       }
-       .Image_accueil1 {
-        padding-top: none;
-        padding-bottom: none;
-       }
-     
-    
-       .titre {
-        font-size: 30px;
-        padding-left: 5%;
-        padding-right: 5%;
+.titre {
+        font-size: 28px;
+        margin-left: 2%;
+        margin-right: 2%;
         text-align: center;
         padding-top: none;
-       }
+}
     
-       .couverture4 {
-    
-        max-width: 35%;
-        max-height: 35%;
-    
-       }
-        
-       .couverture5 {
-    
-        max-width: 37%;
-        max-height: 37%;
-        padding-right: 0%;
-        padding-left: 10%;
-    
-       }
-       .couverture6 {
-    
-        opacity: 0;
-    
-       }
 
     /* Présentation du club */
 
